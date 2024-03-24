@@ -24,10 +24,10 @@ public class Student1 {
         student1.name = "Raisa";
         student1.id = 34;
         student1.gender = "Female";
+        student1.dept = "CSE";
+        student1.address = "Dhaka";
 
-        System.out.println(student1.name);
-        System.out.println(student1.id);
-        System.out.println(student1.gender);
+        student1.displayInfo();
 
 
     }
